@@ -1892,6 +1892,7 @@ var validateFileURL = void 0;
     'https://invoice-checker-staging.s3-eu-central-1.amazonaws.com',
     'https://app.invoice-checker.com',
     'https://staging.invoice-checker.com',
+    'localhost:3000'
   ];
   validateFileURL = function validateFileURL(file) {
     if (file === undefined) {
