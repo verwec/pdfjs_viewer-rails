@@ -1890,6 +1890,8 @@ var validateFileURL = void 0;
     'null', 'http://mozilla.github.io', 'https://mozilla.github.io',
     'https://invoicechecker.s3-eu-central-1.amazonaws.com',
     'https://invoice-checker-staging.s3-eu-central-1.amazonaws.com',
+    'https://app.invoice-checker.com',
+    'https://staging.invoice-checker.com',
   ];
   validateFileURL = function validateFileURL(file) {
     if (file === undefined) {
