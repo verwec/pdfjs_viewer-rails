@@ -1886,7 +1886,11 @@ var PDFViewerApplication = {
 };
 var validateFileURL = void 0;
 {
-  var HOSTED_VIEWER_ORIGINS = ['null', 'http://mozilla.github.io', 'https://mozilla.github.io'];
+  var HOSTED_VIEWER_ORIGINS = [
+    'null', 'http://mozilla.github.io', 'https://mozilla.github.io',
+    'https://invoicechecker.s3-eu-central-1.amazonaws.com',
+    'https://invoice-checker-staging.s3-eu-central-1.amazonaws.com',
+  ];
   validateFileURL = function validateFileURL(file) {
     if (file === undefined) {
       return;
